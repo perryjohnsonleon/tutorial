@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="js/chart.js"></script>
+<script>  
+const ctx = document.getElementById('myChart');
+
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['A', 'B', 'C', 'D', 'E'],
+    datasets: [{
+      label: '數據',
+      data: [3, -2, 4, -1, 5],
+      borderColor: 'blue',
+      fill: false
+    }]
+  },
+  options: {
+    scales: {
+      y: {
+        min: -10,   // 設定最小值
+        max: 10,    // 設定最大值
+        grid: {
+          color: (ctx) => ctx.tick.value === 0 ? 'red' : '#ccc' // Y=0 畫紅色
+        }
+      }
+    }
+  }
+});
+
+</script>
+</head>
+
+<body>
+<div><canvas id="myChart" width="750" height="400"></canvas></div>
+</div>
+</body>
+</html>
