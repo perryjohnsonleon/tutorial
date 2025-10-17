@@ -1,5 +1,5 @@
 	const element1 = document.getElementById("myBar1");
-	const stockId_list=['2330','2887','2353','2356','1504','2371','2324','8150','2317','2002','2027','1402','1301','1102','1101','2347']
+	const stockId_list=['2330','1102','1101','2356','1504','2371','2324','8150','2317','2002','2027','1402','1301','2887','2353','2347','3706','5410','2449','2308']
 	let stockId=0 ;
 	window.addEventListener('load',function(){
 		startShow();
@@ -10,22 +10,22 @@
    function refreshTime() {
              switch ( $(this).val()) {
 					  case "A": 
-							window.location.href = 'https://perryjohnsonleon.github.io/exercise/index_a.htm' ;
+							window.location.href = 'https://perryjohnsonleon.github.io/tutorial/index_a.htm' ;
 							break;
 					  case "B":
-							window.location.href = 'https://perryjohnsonleon.github.io/exercise/index_b.htm'	;
+							window.location.href = 'https://perryjohnsonleon.github.io/tutorial/index_b.htm'	;
 							break;
 					  case "C": 
-							window.location.href = 'https://perryjohnsonleon.github.io/exercise/index_c.htm' ;
+							window.location.href = 'https://perryjohnsonleon.github.io/tutorial/index_c.htm' ;
 							break;
 					  case "D": 
-							window.location.href = 'https://perryjohnsonleon.github.io/exercise/index_d.htm' ;
+							window.location.href = 'https://perryjohnsonleon.github.io/tutorial/index_d.htm' ;
 							break;
 					  case "E": 
-							window.location.href = 'https://perryjohnsonleon.github.io/exercise/index_e.htm' ;
+							window.location.href = 'https://perryjohnsonleon.github.io/tutorial/index_e.htm' ;
 							break;
 					  case "F": 
-							window.location.href = 'https://perryjohnsonleon.github.io/exercise/index_f.htm' ;
+							window.location.href = 'https://perryjohnsonleon.github.io/tutorial/index_f.htm' ;
 							break;
 					  case "W": 
 							window.location.href = 'https://perryjohnsonleon.github.io/exercise2/index_w.htm' ;
@@ -34,10 +34,10 @@
 							window.location.href = 'https://perryjohnsonleon.github.io/exercise2/index_x.htm' ;
 							break;
 					  case "Z": 
-							window.location.href = 'https://perryjohnsonleon.github.io/exercise/index_z.htm' ;
+							window.location.href = 'https://perryjohnsonleon.github.io/tutorial/index_z.htm' ;
 							break;
 					  case "P": 
-							window.location.href = 'https://perryjohnsonleon.github.io/exercise/graph.htm' ;
+							window.location.href = 'https://perryjohnsonleon.github.io/tutorial/graph.htm' ;
 							break;
 					  case "-1": 
 							window.location.href = 'https://perryjohnsonleon.github.io/exercise' ;
@@ -294,4 +294,8 @@
 		await displayPost(13);
 		await displayPost(14);
 		await displayPost(15);
+		await displayPost(16);
+		await displayPost(17);
+		await displayPost(18);
+		await displayPost(19);
 	}  
